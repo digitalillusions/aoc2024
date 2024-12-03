@@ -2,6 +2,10 @@ use regex::Regex;
 
 fn main() {
 
+    //--------------------------------------------
+    // Day 3
+    //--------------------------------------------
+
     // Part 1
     // Match instruction pattern of the form "mul(1,2)" and extract the two numbers
     let contents = std::fs::read_to_string("inputs/3_1.txt").unwrap();
